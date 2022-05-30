@@ -128,6 +128,30 @@ nav ul li:hover {
     color: rgb(145, 145, 145);
 }
 
+.page-content>.Compétences h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+
+.page-content>.Compétences>.Compétences>.parcour>.description {
+    font-size: 11px;
+}
+
+.page-content>.Compétences>.Compétences>.Compétences>.description {
+    font-size: 11px;
+}
+
+.page-content>.Compétences>.Compétences {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-content>.Compétences>.Compétences>.parcour {
+    margin-right: 50px;
+    max-width: 300px;
+}
+
 footer{
     margin-top: 3%;
     display: flex;
